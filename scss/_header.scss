@@ -1,0 +1,23 @@
+/*HEADER*/
+
+header { position: sticky; top: 5px; z-index: 1;
+    
+
+    img {
+        width: 100px;
+        margin: 10px;
+        padding: 5px; }
+
+    a   {    
+        display: flex;
+        color: rgb(44, 44, 44);
+        text-align: center;
+        font-size: medium; 
+        font-weight: bold;  }
+}
+
+
+.textoMenu__header__nav__div__ul__li {
+    display: flex;
+    flex-grow: 0;}  
+

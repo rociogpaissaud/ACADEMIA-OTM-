@@ -1,0 +1,130 @@
+$amarillo-mostaza: rgb(221, 167, 31);
+$rojo:  rgb(255, 34, 34);
+$gris: rgb(222, 223, 224);
+$negro: black; 
+$grismedio:rgb(44, 44, 44);
+
+@mixin lineHeight {     
+    line-height: 20px;}
+
+/*PARRAFOS,COLORES,TEXTOS*/
+
+/*textoBody*/   
+body {
+    color: $gris; }
+
+/*Index*/
+p {    
+        color: rgb(245, 245, 219); 
+        font-weight: 8px; 
+        font-size: 13px; 
+        text-align: center;}
+
+.texto__main__nosotros__nacimiento {
+    float: right; 
+    justify-items: center; 
+    justify-content:center; }
+
+
+    
+/* Seminario */
+.parrafo__introSeminario {
+    margin-top: 2%;
+    color: $gris;
+    text-align: center;
+    font-size: 13px; 
+    font-weight:bold; 
+    @include lineHeight; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;}
+
+.parrafo__seminario {
+    color: $grismedio;
+    text-align: center;
+    font-size: 13px; 
+    font-weight:bold; 
+    @include lineHeight;
+    overflow: hidden;}
+
+.parrafo__ul__li__seminario {
+    color: $grismedio;
+    text-align: center;
+    font-size: 10px; 
+    font-weight:normal;
+    font-style: oblique; 
+    list-style-type: none;
+    @include lineHeight;
+    list-style-position: center; 
+    overflow: hidden;}
+
+.parrafo__seminario__como__donde {
+    color:  $gris;
+    text-align: center;
+    font-size: 13px; 
+    font-weight:bold; 
+    @include lineHeight;
+    overflow: hidden;}
+
+.parrafo__ul__li__seminario__como__donde {
+    color:  $gris;
+    text-align: center;
+    font-size: 10px; 
+    font-weight:normal;
+    font-style: oblique; 
+    list-style-type: none;
+    @include lineHeight;
+    list-style-position: center; 
+    overflow: hidden;}
+
+
+/*El equipo*/
+.parEquipoPabliRo {
+    color: $negro;
+    text-align: center;
+    font-size: 10px; 
+    font-weight:bold; 
+    @include lineHeight; 
+    overflow: hidden;}
+
+.parEquipoCeciMaca {
+    color: $gris;
+    text-align: center;
+    font-size: 10px; 
+    font-weight:bold; 
+    @include lineHeight;
+    overflow: hidden; }
+
+/*Masterclass*/
+.parMasterclass {
+    color:  $gris;
+    text-align: center;
+    font-size: 10px; 
+    font-weight:bold; 
+    @include lineHeight; }
+    
+/* Contacto */
+.legendContacto {
+    color: $negro;
+    @include lineHeight;
+    font-size: 15px; 
+    font-weight:bold;
+    text-align: left; }
+
+.label__form    { 
+    color: $negro;
+    @include lineHeight;
+    font-size: 10px; 
+    font-weight:normal;
+    line-height: 15%; }
+
+.inputNombre:focus {
+    width: 150px;
+    font-size: 20px;}
+
+textarea:focus {
+    width: 350px;
+    font-size: 20px;}

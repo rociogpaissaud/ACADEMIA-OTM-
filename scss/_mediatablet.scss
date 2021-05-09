@@ -1,0 +1,198 @@
+$medidas: 800px;
+$fondo: false;
+$amarillo-mostaza: rgb(221, 167, 31);
+$rojo:  rgb(255, 34, 34);
+$gris: rgb(222, 223, 224);
+$negro: black; 
+$grismedio:rgb(44, 44, 44);
+
+/*TABLET*/
+@media only screen and (min-width:768px){
+    body {
+        @if $fondo == true { background-color: black; }
+        @else {background-color: rgb(22, 22, 22); } }
+    
+    h1 {
+        font-size: 30px;}
+        
+    h2 {
+        font-size: 27px;}
+
+    h3 {
+        font-size: 40px; }
+            
+    h4 {
+        font-size: 20px; }
+            
+    h5 {
+        font-size: 15px; }
+            
+    h6 {
+        font-size: 15px; } 
+
+    /*index*/
+    main {
+        div iframe {    
+            float: left; 
+            justify-items: center; 
+            justify-content:center;} }
+
+    p {    
+        color: rgb(245, 245, 219); 
+        font-weight: 8px; 
+        font-size: 16px; 
+        text-align: center;}  
+
+    /*Footer*/
+    .parFooter {
+        color: rgb(000, 104, 212);
+        list-style: none;
+        list-style-position: inside;
+        text-align: left;
+        font-size: 15px; 
+        font-weight:lighter; 
+        margin: 1%;
+        padding: 1%;}
+                    
+    .parHechoPorRocio {
+        text-align: right;} 
+
+    /*Anexar*/
+    .gridAnexar {
+        display: grid;
+        grid-template-columns: 180px;
+        grid-template-rows: 200px;
+        align-content: center;
+        justify-content: center;}
+            
+    .backAnexar {
+        width: 180px;
+        height: 150px;
+        align-items: center;
+        background-color: rgb(222, 223, 224); }
+
+    /*Seminario*/
+    .gridMain__main__seminario {
+        display: grid;
+        grid-template-columns: 700px; 
+        justify-content: center;
+        align-items: center;}
+            
+    .parrafo__introSeminario {
+        font-size: 18px; }
+            
+    .parrafo__seminario {
+        font-size: 16px; }
+            
+    .parrafo__ul__li__seminario {
+        color:$grismedio;
+        text-align:center;
+        font-size: 10px; 
+        font-weight:normal;
+        font-style: oblique; 
+        list-style-type: none;
+        line-height: 15px;
+        list-style-position: center; 
+        overflow: hidden;}
+            
+    .parrafo__seminario__como__donde {
+        font-size: 16px; }
+            
+    .parrafo__ul__li__seminario__como__donde {
+        color: $gris;
+        text-align: center;
+        font-size: 10px; 
+        font-weight:bold;
+        font-style: oblique; 
+        list-style-type: none;
+        line-height: 15px;
+        list-style-position: center; 
+        overflow: hidden;}
+
+    /*El equipo*/
+    .ElEquipo {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr; 
+        align-content: space-between;
+        align-items: center; } 
+        
+    .ElEquipoNegro {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr 2fr; 
+        align-content: space-between;
+        align-items: center;} 
+         
+    .ElEquipoNegro section article {
+        display: none;} 
+    
+    .parEquipoPabliRo {
+        font-size: 13px; }
+        
+    .parEquipoCeciMaca {
+        font-size: 13px; }
+
+    /*Masterclass*/ 
+        
+    .sectionMasterclass {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;}
+
+    .parMasterclass {
+        color:  $gris;
+        text-align: center;
+        font-size: 15px; 
+        font-weight:bold; 
+        line-height: 20px; } 
+
+    .backTitleMasterclass {
+        width: 40%;
+        margin: 1%;
+        padding: 1%;
+        overflow: hidden; 
+        flex-grow: 1;
+        flex-shrink: 0;
+        align-content: flex-start;}
+            
+    .backMasterclass {
+        width: 40%;
+        margin: 1%;
+        padding: 1%;
+        overflow: hidden; 
+        flex-grow: 1;
+        flex-shrink: 0;
+        align-content: flex-start;}
+            
+    .backMasterclassNegro {
+        background-color: rgb(000, 000, 000);
+        width: 40%;
+        border:tan solid;
+        margin: 1%;
+        padding: 1%;
+        overflow: hidden; 
+        flex-grow: 1;
+        flex-shrink: 0;
+        align-content: flex-start;}
+            
+    .siete {     
+        width: 45%;
+        overflow: hidden; 
+        flex: none;
+        align-content: flex-start;}
+
+        
+    /*Contacto*/
+    .legendContacto {
+        color: $negro;
+        font-size: 20px; 
+        font-weight:bold;
+        text-align: left; 
+        line-height: 20px; }
+ 
+    .label__form    { 
+        color: $negro;
+        font-size: 15px; 
+        font-weight:normal;
+        line-height: 15%;
+        line-height: 20px; }
+    }  

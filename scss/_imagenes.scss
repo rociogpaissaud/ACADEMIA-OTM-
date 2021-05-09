@@ -1,0 +1,48 @@
+@mixin margenes {     
+    padding: 1%;
+    margin: 1%; 
+    overflow: hidden; }
+
+/*Index*/
+main {  
+   div iframe {    
+        float: left; 
+        justify-items: center; 
+        justify-content:center;} }
+
+.Video__main {
+    padding: 2%;
+    margin: 1%;
+    overflow: hidden;}
+    
+
+
+/*Seminario*/
+.imgHamilton__seminario {
+    width: 100%;
+    overflow: hidden;
+    align-content: center;}
+
+
+/*El equipo*/ 
+.imgEquipo {
+    margin: 5%;
+    padding: 4%;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10%; 
+    overflow: hidden; }
+
+
+/*Galería */   
+.imgGaleria {
+    width: 400px;
+    height: 400px; 
+    justify-content: center;
+    align-content: center;}
+    
+.galeria {
+    @include margenes ; }
+
+    

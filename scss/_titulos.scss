@@ -1,0 +1,47 @@
+$amarillo-mostaza: rgb(221, 167, 31);
+$rojo:  rgb(255, 34, 34);
+$gris: rgb(222, 223, 224);
+
+/*TÍTULOS*/
+
+h1 {
+    padding-top: 1%;
+    color: $amarillo-mostaza;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold ;}
+
+h2 {
+    padding-top: 1%;
+    color: $amarillo-mostaza;
+    font-size: 23px;
+    text-align: center;
+    font-weight: bold ;}
+
+h3 {
+    padding-top: 1%;
+    color: $rojo;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: bold; }
+
+h4 {
+    padding-top: 1%;
+    color: $amarillo-mostaza;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold ;}
+
+h5 {
+    padding-top: 1%;
+    color: $amarillo-mostaza;
+    font-size: 13px;
+    text-align: center;
+    text-decoration:underline;}
+
+h6 {
+    padding-top: 1%;
+    color:  $amarillo-mostaza;
+    font-size: 12px;
+    text-align: center;}
