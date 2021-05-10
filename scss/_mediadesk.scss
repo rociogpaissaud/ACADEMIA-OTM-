@@ -203,7 +203,8 @@ $grismedio:rgb(44, 44, 44);
     .imgGaleria {
             min-width: 600px;
             min-height: 600px; }   
-    
+
+    /*Contacto*/
     .legendContacto {
         color: $negro;
         font-size: 25px; 
@@ -215,13 +216,12 @@ $grismedio:rgb(44, 44, 44);
         color: $negro;
         font-size: 20px; 
         font-weight:normal;
-        line-height: 15%;
         line-height: 20px; }
 
     .back__img__contacto {
         margin: 1%;
         padding: 1%;
         background-image: url(../Media/contacto.jpg);
-        width: 100%;
+        width: 98%;
         height: 700px;
         background-repeat:round;} }

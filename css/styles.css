@@ -19,7 +19,8 @@ h2 {
   font-weight: bold; }
 
 h3 {
-  padding-top: 1%;
+  margin: 1%;
+  padding: 1%;
   color: #ff2222;
   font-size: 30px;
   text-align: center;
@@ -258,10 +259,6 @@ p {
   font-weight: normal;
   line-height: 15%; }
 
-.inputNombre:focus {
-  width: 150px;
-  font-size: 20px; }
-
 textarea:focus {
   width: 350px;
   font-size: 20px; }
@@ -294,6 +291,7 @@ textarea:focus {
   margin: 1%;
   overflow: hidden; }
 
+/*Galería*/
 /*Index*/
 main div iframe {
   float: left;
@@ -485,7 +483,6 @@ main div iframe {
     color: black;
     font-size: 15px;
     font-weight: normal;
-    line-height: 15%;
     line-height: 20px; } }
 
 /*DESK*/
@@ -653,6 +650,7 @@ main div iframe {
   .imgGaleria {
     min-width: 600px;
     min-height: 600px; }
+  /*Contacto*/
   .legendContacto {
     color: black;
     font-size: 25px;
@@ -663,12 +661,11 @@ main div iframe {
     color: black;
     font-size: 20px;
     font-weight: normal;
-    line-height: 15%;
     line-height: 20px; }
   .back__img__contacto {
     margin: 1%;
     padding: 1%;
     background-image: url(../Media/contacto.jpg);
-    width: 100%;
+    width: 98%;
     height: 700px;
     background-repeat: round; } }
