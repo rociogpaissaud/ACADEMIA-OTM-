@@ -37,10 +37,11 @@ main {
 
 /*Galería */   
 .imgGaleria {
+    display: flex;
     width: 400px;
     height: 400px; 
-    justify-content: center;
-    align-content: center;}
+    align-items: center;
+    justify-content: center;}
     
 .galeria {
     @include margenes ; }

@@ -92,7 +92,7 @@ body {
 
 .back__img__contacto {
   padding: 1%;
-  background-image: url(../Media/contacto.jpg);
+  background-image: url(../media/contacto.jpg);
   width: 100%;
   height: 700px;
   background-repeat: none; }
@@ -122,15 +122,15 @@ header {
 
 /*ANEXAR*/
 .gridAnexar__div__img__logoanexar {
+  margin: 0%;
+  padding: 0%;
   display: grid;
-  grid-template-columns: 100px;
-  grid-template-rows: 120px;
-  align-content: center;
+  grid-template-columns: 90px;
+  grid-template-rows: 70px;
   justify-content: center; }
 
 .backAnexar__div__img {
-  width: 100%;
-  align-items: center; }
+  width: 150%; }
 
 /* FOOTER */
 footer {
@@ -321,10 +321,11 @@ main div iframe {
 
 /*Galería */
 .imgGaleria {
+  display: flex;
   width: 400px;
   height: 400px;
-  justify-content: center;
-  align-content: center; }
+  align-items: center;
+  justify-content: center; }
 
 .galeria {
   padding: 1%;
@@ -370,17 +371,15 @@ main div iframe {
   .parHechoPorRocio {
     text-align: right; }
   /*Anexar*/
-  .gridAnexar {
+  .gridAnexar__div__img__logoanexar {
+    margin: 0%;
+    padding: 0%;
     display: grid;
-    grid-template-columns: 180px;
-    grid-template-rows: 200px;
-    align-content: center;
+    grid-template-columns: 150px;
+    grid-template-rows: 90px;
     justify-content: center; }
-  .backAnexar {
-    width: 180px;
-    height: 150px;
-    align-items: center;
-    background-color: #dedfe0; }
+  .backAnexar__div__img {
+    width: 120%; }
   /*Seminario*/
   .gridMain__main__seminario {
     display: grid;
@@ -472,6 +471,14 @@ main div iframe {
     overflow: hidden;
     flex: none;
     align-content: flex-start; }
+  /*Galeria*/
+  .imgGaleria {
+    margin-left: 25%;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-content: center; }
   /*Contacto*/
   .legendContacto {
     color: black;
@@ -520,17 +527,15 @@ main div iframe {
     float: left;
     clear: left; }
   /*Anexar*/
-  .gridAnexar__img {
+  .gridAnexar__div__img__logoanexar {
+    margin: 0%;
+    padding: 0%;
     display: grid;
     grid-template-columns: 180px;
-    grid-template-rows: 200px;
-    align-content: center;
+    grid-template-rows: 150px;
     justify-content: center; }
-  .backAnexar {
-    width: 180px;
-    height: 150px;
-    align-items: center;
-    background-color: #dedfe0; }
+  .backAnexar__div__img {
+    width: 150%; }
   /*Footer*/
   .parFooter__ul__li {
     font-size: 15px; }
@@ -643,13 +648,17 @@ main div iframe {
     overflow: hidden;
     flex: none;
     align-content: flex-start; }
-  /*Galería*/
-  .imgGaleria:hover {
-    justify-content: center;
-    align-content: center; }
+  /*Galería       
+    .imgGaleria:hover {
+        justify-content: center;
+        align-content: center;}*/
   .imgGaleria {
-    min-width: 600px;
-    min-height: 600px; }
+    margin-left: 25%;
+    display: flex;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center; }
   /*Contacto*/
   .legendContacto {
     color: black;

@@ -58,18 +58,16 @@ $grismedio:rgb(44, 44, 44);
         text-align: right;} 
 
     /*Anexar*/
-    .gridAnexar {
+    .gridAnexar__div__img__logoanexar {
+        margin: 0%;
+        padding: 0%;
         display: grid;
-        grid-template-columns: 180px;
-        grid-template-rows: 200px;
-        align-content: center;
+        grid-template-columns: 150px;
+        grid-template-rows: 90px;
         justify-content: center;}
             
-    .backAnexar {
-        width: 180px;
-        height: 150px;
-        align-items: center;
-        background-color: rgb(222, 223, 224); }
+    .backAnexar__div__img {
+        width: 120%;}
 
     /*Seminario*/
     .gridMain__main__seminario {
@@ -180,7 +178,15 @@ $grismedio:rgb(44, 44, 44);
         flex: none;
         align-content: flex-start;}
 
-        
+    /*Galeria*/
+    .imgGaleria {
+        margin-left: 25%;
+        display: flex;
+        width: 400px;
+        height: 400px; 
+        align-items: center;
+        justify-content: center;}
+
     /*Contacto*/
     .legendContacto {
         color: $negro;
