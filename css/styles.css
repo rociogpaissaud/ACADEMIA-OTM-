@@ -171,7 +171,7 @@ p {
   margin-top: 2%;
   color: #dedfe0;
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 20px;
   overflow: hidden;
@@ -184,7 +184,7 @@ p {
 .parrafo__seminario {
   color: #2c2c2c;
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 20px;
   overflow: hidden; }
@@ -192,7 +192,7 @@ p {
 .parrafo__ul__li__seminario {
   color: #2c2c2c;
   text-align: center;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: normal;
   font-style: oblique;
   list-style-type: none;
@@ -203,7 +203,7 @@ p {
 .parrafo__seminario__como__donde {
   color: #dedfe0;
   text-align: center;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 20px;
   overflow: hidden; }
@@ -211,7 +211,7 @@ p {
 .parrafo__ul__li__seminario__como__donde {
   color: #dedfe0;
   text-align: center;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: normal;
   font-style: oblique;
   list-style-type: none;
