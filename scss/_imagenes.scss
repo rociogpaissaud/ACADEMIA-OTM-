@@ -14,7 +14,11 @@ main {
     padding: 2%;
     margin: 1%;
     overflow: hidden;}
-    
+
+/*Footer*/
+.imgFooter {
+    height: 30px; 
+    padding: 1%;}
 
 
 /*Seminario*/
@@ -40,8 +44,9 @@ main {
     display: flex;
     width: 400px;
     height: 400px; 
-    align-items: center;
-    justify-content: center;}
+    align-content: center;
+    justify-content: center;
+    align-items: center;}
     
 .galeria {
     @include margenes ; }

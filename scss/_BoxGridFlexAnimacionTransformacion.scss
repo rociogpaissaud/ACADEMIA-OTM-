@@ -1,4 +1,15 @@
 
+/*Footer*/
+
+.imgFooterFlex {
+    display:inline;
+    list-style: none;
+    float: left;
+    padding: 0;
+    text-align:center;
+    justify-items: center;}
+
+
 /*Seminario*/
 
 .gridMain__main__seminario {
@@ -15,6 +26,10 @@
     justify-content: space-evenly;
     align-content: center;}
 
+.iconos__seminario {
+    display: flex;
+    justify-content: center;
+    align-content: center; }
 
 /*el equipo*/
 .ElEquipo {
@@ -29,7 +44,6 @@
     margin: 1%;
     overflow: hidden;}
 
-/*Galería*/
 
 
 

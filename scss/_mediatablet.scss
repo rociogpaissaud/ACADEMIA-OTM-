@@ -69,6 +69,14 @@ $grismedio:rgb(44, 44, 44);
     .backAnexar__div__img {
         width: 120%;}
 
+    /*Footer*/
+    .imgFooter {
+        height: 40px; 
+        padding: 1%;}
+
+    .parHechoPorRocio__footer__ul__li__últimalinea {
+        text-align: right;}
+
     /*Seminario*/
     .gridMain__main__seminario {
         display: grid;
@@ -180,10 +188,11 @@ $grismedio:rgb(44, 44, 44);
 
     /*Galeria*/
     .imgGaleria {
-        margin-left: 25%;
+        margin-left: 30%;
         display: flex;
         width: 400px;
         height: 400px; 
+        align-content: center;
         align-items: center;
         justify-content: center;}
 
