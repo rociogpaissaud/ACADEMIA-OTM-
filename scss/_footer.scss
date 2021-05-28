@@ -1,10 +1,10 @@
 /* FOOTER */
-
+$grismedio:rgb(44, 44, 44);
 footer {
     border-style: dotted ;
 
     ul {     
-        color: rgb(000, 104, 212);
+        color: $grismedio;
         list-style: none;
         list-style-position: inside;
         text-align: left;
